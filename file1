@@ -24,4 +24,14 @@ tail - last 10 lines
 head -n - first n number of lines
 tail -n - last n number of lines
 sed - streme editor - sed -n '2,10p' filename - it prints only 2 to 10 lines of a file
-grep - global regular expression - to search witin a file 
+grep - global regular expression - to search witin a file
+wc - word count - line count
+find - to find the folders and files 
+more/less - to view the file in page wise mode
+tail -f - to view to the log file in real mode
+df - to view disk file systems
+du - to view disk file usage
+free - to view memery
+top/htop - to view the cpu usage
+ps - to view the running process
+ 
