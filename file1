@@ -1,0 +1,27 @@
+Hi, This is naveen today i am going to teach few linux commands. Here Linux is very important for devops.
+cd - change directory
+mkdir - create a new directory
+touch - create a new empty file
+touch file{1..30} - to create 30 files in one go
+rm file{1..30] - to delete 30 files in one go
+pwd - print/present working directory
+ls - to list the files
+ll/ls -l/ls -ltr/ls -altr - to list the files and there permissions/size/Last modified date/time/links/ownername/groupname
+cp - to copy a file/directory
+mv - to move a file/ to rename a file/directory
+vi/vim - edit a file 
+cat - to see what is inside a file/to show content of a file
+cat -n - it shows with line numbers
+yy - to copy a line in a file inside vim editor
+p - to paste
+dd - to delete
+nyy - to copy n number of lines
+ndd - to delete n number of lines
+rm - to remove a file
+rm * - to remove all files
+head - first 10 lines
+tail - last 10 lines
+head -n - first n number of lines
+tail -n - last n number of lines
+sed - streme editor - sed -n '2,10p' filename - it prints only 2 to 10 lines of a file
+grep - global regular expression - to search witin a file 
